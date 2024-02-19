@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>My First HTML Page</title>
+    <meta name="author" content="Me"/>
+    <link rel="stylesheet" href="/style.css"/>
+    <script>
+      function computeSum() {
+	  let aNode = document.querySelector("#firstArgID");
+	  let a = aNode.value;
+	  let bNode = document.querySelector("#secondArgID");
+          let b	= bNode.value;
+	  let sum = parseInt(a) + parseInt(b);
+
+	  let pNode = document.querySelector("p");
+	  pNode.innerHTML = a + " + " + b + " = " + sum;
+      }
+
+      function requestSum() {
+          let aNode = document.querySelector("#firstArgID");
+          let a = aNode.value;
+          let bNode = document.querySelector("#secondArgID");
+          let b = bNode.value;
+
+	  let url = "http://34.68.16.90/sumNumber?firstArg=" + a + "&secondArg=" + b;
+	  fetch(url).then( response => response.text( )).then( text => {
+	      let pNode = document.querySelector("p");
+              pNode.innerHTML = text;
+	  });
+      }
+    </script>
+  </head>
+  <body>
+   <!-- <form action="/sumPage">
+      <input name="firstArg" type="text"/> +
+      <input name="secondArg" type="text"/>
+      <br/>
+      <input type="submit" value="Submit"/>
+      <p>???</p>
+   </form> -->
+
+  <!-- <form action="/sumPage">
+      <input id="firstArgID" name="firstArg" type="text"/> +
+      <input id="secondArgID" name="secondArg" type="text"/>
+      <br/>
+      <input type="button" value="Submit" onclick="computeSum();"/>
+      <p>???</p>
+   </form> -->
+
+   <form action="/sumPage">
+      <input id="firstArgID" name="firstArg" type="text"/> +
+      <input id="secondArgID" name="secondArg" type="text"/>
+      <br/>
+      <input type="button" value="Submit" onclick="requestSum();"/>
+      <p>???</p>
+   </form>
+   
+  </body>
+</html>
