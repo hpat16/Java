@@ -1,0 +1,17 @@
+graph flights {
+    "ATL" -- "BOS" [miles=1];
+    "ATL" -- "HOU" [miles=8];
+    "ATL" -- "MSP" [miles=5];
+    "BOS" -- "MSP" [miles=3];
+    "DTW" -- "ATL" [miles=7];
+    "DTW" -- "ORD" [miles=2];
+    "FLL" -- "ORD" [miles=9];
+    "ORD" -- "LAX" [miles=7];
+    "HOU" -- "BOS" [miles=6];
+    "HOU" -- "IAD" [miles=2];
+    "IAD" -- "DTW" [miles=1];
+    "IAD" -- "LAX" [miles=5];
+    "IAD" -- "HOU" [miles=2];
+    "MSP" -- "EWR" [miles=3];
+    "MSP" -- "FLL" [miles=4];
+}
