@@ -1,11 +1,3 @@
-// --== CS400 Fall 2023 File Header Information ==--
-// Name: Henish Patel
-// Email: hpatel37@wisc.edu
-// Group: F24
-// TA: ZHUOMING LIU
-// Lecturer: Gary Dahl
-// Notes to Grader: <optional extra notes>
-
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 import org.junit.jupiter.api.Assertions;
