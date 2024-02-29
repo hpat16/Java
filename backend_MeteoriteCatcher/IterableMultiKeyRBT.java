@@ -1,13 +1,3 @@
-// --== CS400 Fall 2023 File Header Information ==--
-// Name: Henish Patel
-// Email: hpatel37@wisc.edu
-// Group: B30
-// TA: Robert Nagel
-// Lecturer: Gary Dahl
-// Notes to Grader: Using 1 of my late passes because I realized my iterator wasn't handling
-//                  trees with size 1 properly (trees with a single keylist that contains
-//                  duplicates)
-
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Stack;
