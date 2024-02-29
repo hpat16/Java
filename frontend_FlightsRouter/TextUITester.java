@@ -9,8 +9,6 @@ import java.util.Scanner;
  * a String of text input (that will be fed to System.in as if entered by the user),
  * and then 2) capturing the output printed to System.out and System.err in String
  * form so that it can be compared to the expect output.
- * @author dahl
- * @date 2021.10
  */
 public class TextUITester {
 
