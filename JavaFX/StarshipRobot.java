@@ -1,34 +1,5 @@
-//////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
-//
-// Title:    Starship Robot
-// Course:   CS 300 Spring 2023
-//
-// Author:   Henish Patel
-// Email:    hpatel37@wisc.edu
-// Lecturer: Hobbes LeGault
-//
-//////////////////// PAIR PROGRAMMERS COMPLETE THIS SECTION ///////////////////
-//
-// Partner Name:    (name of your pair programming partner)
-// Partner Email:   (email address of your programming partner)
-// Partner Lecturer's Name: (name of your partner's lecturer)
-//
-// VERIFY THE FOLLOWING BY PLACING AN X NEXT TO EACH TRUE STATEMENT:
-//   ___ Write-up states that pair programming is allowed for this assignment.
-//   ___ We have both read and understand the course Pair Programming Policy.
-//   ___ We have registered our team prior to the team registration deadline.
-//
-///////////////////////// ALWAYS CREDIT OUTSIDE HELP //////////////////////////
-//
-// Persons:         NONE
-// Online Sources:  NONE
-//
-///////////////////////////////////////////////////////////////////////////////
-
-
 /**
  * This class models StarshipRobot objects which can be triggered to move or do some actions.
- * @author henishpatel
  */
 public class StarshipRobot extends MovingThing {
   // source point of this StarshipRobot at its current journey delivering food to badgers
