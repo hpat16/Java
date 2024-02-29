@@ -1,33 +1,5 @@
-//////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
-//
-// Title:    Badger
-// Course:   CS 300 Spring 2023
-//
-// Author:   Henish Patel
-// Email:    hpatel37@wisc.edu
-// Lecturer: Hobbes LeGault
-//
-//////////////////// PAIR PROGRAMMERS COMPLETE THIS SECTION ///////////////////
-//
-// Partner Name:    (name of your pair programming partner)
-// Partner Email:   (email address of your programming partner)
-// Partner Lecturer's Name: (name of your partner's lecturer)
-//
-// VERIFY THE FOLLOWING BY PLACING AN X NEXT TO EACH TRUE STATEMENT:
-//   ___ Write-up states that pair programming is allowed for this assignment.
-//   ___ We have both read and understand the course Pair Programming Policy.
-//   ___ We have registered our team prior to the team registration deadline.
-//
-///////////////////////// ALWAYS CREDIT OUTSIDE HELP //////////////////////////
-//
-// Persons:         NONE
-// Online Sources:  NONE
-//
-///////////////////////////////////////////////////////////////////////////////
-
 /**
- * This class models a Badger object in the P05 Dancing Badgers III programming assignment
- * @author henishpatel
+ * This class models a Badger object
  */
 public class Badger extends MovingThing implements Clickable {
   // indicates whether this badger is being dragged or not
