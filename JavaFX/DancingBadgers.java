@@ -1,38 +1,10 @@
-//////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
-//
-// Title:    Dancing Badgers
-// Course:   CS 300 Spring 2023
-//
-// Author:   Henish Patel
-// Email:    hpatel37@wisc.edu
-// Lecturer: Hobbes LeGault
-//
-//////////////////// PAIR PROGRAMMERS COMPLETE THIS SECTION ///////////////////
-//
-// Partner Name:    (name of your pair programming partner)
-// Partner Email:   (email address of your programming partner)
-// Partner Lecturer's Name: (name of your partner's lecturer)
-//
-// VERIFY THE FOLLOWING BY PLACING AN X NEXT TO EACH TRUE STATEMENT:
-//   ___ Write-up states that pair programming is allowed for this assignment.
-//   ___ We have both read and understand the course Pair Programming Policy.
-//   ___ We have registered our team prior to the team registration deadline.
-//
-///////////////////////// ALWAYS CREDIT OUTSIDE HELP //////////////////////////
-//
-// Persons:         NONE
-// Online Sources:  NONE
-//
-///////////////////////////////////////////////////////////////////////////////
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Random;
 import processing.core.PApplet;
 
 /**
- * This is the main class for the p05 Dancing Bangers III program
- * @author henishpatel
+ * This is the main class for the Dancing Bangers program
  */
 public class DancingBadgers extends PApplet {
 
