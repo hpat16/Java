@@ -1,12 +1,10 @@
 import java.util.LinkedList;
 import java.util.Stack;
 
-
 /**
  * Binary Search Tree implementation with a Node inner class for representing
  * the nodes of the tree. We will turn this Binary Search Tree into a self-balancing
  * tree as part of project 1 by modifying its insert functionality.
- * In week 0 of project 1, we will start this process by implementing tree rotations.
  */
 public class BinarySearchTree<T extends Comparable<T>> implements SortedCollectionInterface<T> {
 
