@@ -1,8 +1,5 @@
 /**
- * This enumeration defines a Badger dance step in p05 Dancing Badgers program
- * 
- * @author Mouna
- *
+ * This enumeration defines a Badger dance step in Dancing Badgers program
  */
 public enum DanceStep {
   /**
