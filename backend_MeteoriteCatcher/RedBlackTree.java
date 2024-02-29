@@ -1,11 +1,3 @@
-// --== CS400 Fall 2023 File Header Information ==--
-// Name: Henish Patel
-// Email: hpatel37@wisc.edu
-// Group: B30
-// TA: ROBERT NAGEL
-// Lecturer: Gary Dahl
-// Notes to Grader: <optional extra notes>
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import static org.junit.jupiter.api.Assertions.assertEquals;
