@@ -1,11 +1,3 @@
-// --== CS400 File Header Information ==--
-// Name: Henish Patel
-// Email: hpatel37@wisc.edu
-// Group and Team: F24
-// Group TA: ZHUOMING LIU
-// Lecturer: Gary Dahl
-// Notes to Grader: <optional extra notes>
-
 import java.util.PriorityQueue;
 import java.util.List;
 import java.util.LinkedList;
